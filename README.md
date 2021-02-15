@@ -33,6 +33,7 @@ Environment setup Python and Applied Machine Learning course
 | 2.   | **Python and Applied Machine Learning course Topic#2** <br>  SubTopic#2.1 <br>  SubTopic#2.2 <br>  SubTopic#2.3                                                      | [Preparation](week2/preparation.md) | [Lesson plan](week2/lesson-plan.md) | [Homework](week2/homework.md) |
 | 3.   | **Python and Applied Machine Learning course Topic#3** <br>  SubTopic#3.1 <br>  SubTopic#3.2 <br>  SubTopic#3.3                                   | [Preparation](week3/preparation.md) | [Lesson plan](week3/lesson-plan.md) | [Homework](week3/homework.md) |
 | 4.   | **Python and Applied Machine Learning course Topic#4** <br>  SubTopic#4.1 <br>  SubTopic#4.2 <br>  SubTopic#4.3                                     | [Preparation](week4/preparation.md) | [Lesson plan](week4/lesson-plan.md) | [Homework](week4/homework.md) |
+| 5.   | **Python and Applied Machine Learning course Topic#5** <br>  SubTopic#5.1 <br>  SubTopic#5.2 <br>  SubTopic#5.3                                     | [Preparation](week5/preparation.md) | [Lesson plan](week4/lesson-plan.md) | [Homework](week4/homework.md) |
 
 
 # External Documentation 
