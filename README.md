@@ -24,8 +24,9 @@ Please check the Installation guide below.
 
 Environment setup Python and Applied Machine Learning course
 
-Installation Guide : Install [python 3.75](https://www.python.org/downloads/release/python-375/) and [Pycharm community (free) version for practical concepts](https://www.jetbrains.com/pycharm/download/). For more information, please check this link :https://www.guru99.com/how-to-install-python.html
+Installation Guide : Install [python 3.75](https://www.python.org/downloads/release/python-375/) and [Pycharm community (free) version for practical concepts](https://www.jetbrains.com/pycharm/download/). 
 
+For more information, please check this link :https://www.guru99.com/how-to-install-python.html
 
 
 ## Planning
