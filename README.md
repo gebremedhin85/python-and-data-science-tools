@@ -11,29 +11,31 @@ In this 5 week module we will introduce students to Python as well as the basic 
 ## Prerequisites
 
 Prerequisites Python and Applied Machine Learning course
- Content
+
+This course is directed to HackYourFuture Alumni and everyone is expected to have the basic notions of programming.
 
 ## Preparation
 
 Preparation Python and Applied Machine Learning course
- Content
+
+Please check the Installation guide below. 
 
 ## Environment setup
 
 Environment setup Python and Applied Machine Learning course
- Content
 
+Installation Guide : Install [python 3.75](https://www.python.org/downloads/release/python-375/) and [Pycharm community (free) version for practical concepts](https://www.jetbrains.com/pycharm/download/). For more information, please check this link :https://www.guru99.com/how-to-install-python.html
 
 
 
 ## Planning
 | Week | Topic                                                                                                             | Preparation                         | Lesson plan                         | Homework                      |
 | ---- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ----------------------------------- | ----------------------------- |
-| 1.   | **Python and Applied Machine Learning course Topic#1** <br>  SubTopic#1.1 <br>  SubTopic#1.2 <br>  SubTopic#1.3 | [Preparation](week1/preparation.md) | [Lesson plan](week1/lesson-plan.md) | [Homework](week1/homework.md) |
-| 2.   | **Python and Applied Machine Learning course Topic#2** <br>  SubTopic#2.1 <br>  SubTopic#2.2 <br>  SubTopic#2.3                                                      | [Preparation](week2/preparation.md) | [Lesson plan](week2/lesson-plan.md) | [Homework](week2/homework.md) |
-| 3.   | **Python and Applied Machine Learning course Topic#3** <br>  SubTopic#3.1 <br>  SubTopic#3.2 <br>  SubTopic#3.3                                   | [Preparation](week3/preparation.md) | [Lesson plan](week3/lesson-plan.md) | [Homework](week3/homework.md) |
-| 4.   | **Python and Applied Machine Learning course Topic#4** <br>  SubTopic#4.1 <br>  SubTopic#4.2 <br>  SubTopic#4.3                                     | [Preparation](week4/preparation.md) | [Lesson plan](week4/lesson-plan.md) | [Homework](week4/homework.md) |
-| 5.   | **Python and Applied Machine Learning course Topic#5** <br>  SubTopic#5.1 <br>  SubTopic#5.2 <br>  SubTopic#5.3                                     | [Preparation](week5/preparation.md) | [Lesson plan](week4/lesson-plan.md) | [Homework](week4/homework.md) |
+| 1.   | **Python and Applied Machine course - Introduction about course and Python** <br>  1.Introduction to Machine learning + application <br> 2.Python installation + Pycharm <br>  2.Python basic course.  Cheat sheets with syntax and examples will be provided. | [Preparation](week1/preparation.md) | [Lesson plan](week1/lesson-plan.md) | [Homework](week1/homework.md) |
+| 2.   | **Python and Applied Machine Learning course - More Python and preparation of data** <br>  1.More Python1 <br> 2.Installing anaconda + Jupyter notebook <br> 3.Importing libraries <br> 3.Input Dataset. | [Preparation](week2/preparation.md) | [Lesson plan](week2/lesson-plan.md) | [Homework](week2/homework.md) |
+| 3.   | **Python and Applied Machine Learning course - Basic Life cycle of ML model** <br> 1.Data cleaning <br> 2.Splitting the dataset into training/test dataset <br> 3.Create a model <br> 4.Train a model <br> 5.Make predictions <br> 6.Evaluate and improve <br> 7. Exercise - Spam classification/prediction system (code for a solution is provided, only parts are covered in class) <br> | [Preparation](week3/preparation.md) | [Lesson plan](week3/lesson-plan.md) | [Homework](week3/homework.md) |
+| 4.   | **Python and Applied Machine Learning course -  Building your own model** <br>  This week, we will try to build an ML predictive model for Co2 emission based on engine size using Linear regression. Students get started during class and can continue their work during the week. <br> Introduction about Linear regression.  <br> | [Preparation](week4/preparation.md) | [Lesson plan](week4/lesson-plan.md) | [Homework](week4/homework.md) |
+| 5.   | **Python and Applied Machine Learning course - Follow-up on last week’s work and ML Tree structures** <br> Supervised learning <br>  Unsupervised learning <br> Reinforcement learning | [Preparation](week5/preparation.md) | [Lesson plan](week4/lesson-plan.md) | [Homework](week4/homework.md) |
 
 
 # External Documentation 
