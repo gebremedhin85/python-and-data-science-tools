@@ -14,7 +14,7 @@ Installation [Anaconda navigator](https://docs.anaconda.com/anaconda/navigator/i
 * Python Standard Library 
 * Pypi    
 
-### 2. Installing anaconda + Jupyter notebook
+### 2. Installing Anaconda + Jupyter notebook
 ### 3. Importing libraries
 ### 4. Input Dataset
 
