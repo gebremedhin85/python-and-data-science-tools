@@ -3,7 +3,7 @@
 This week, we build an ML predictive model for Co2 emission based on engine size using Linear regression. 
 
 ## Pre-requisites:
-Dataset and notebooks can be downloaded from [(here)](https://www.kaggle.com/debajyotipodder/co2-emission-by-vehicles?select=Data+Description.csv). 
+Dataset and notebooks can be downloaded from [here](https://www.kaggle.com/debajyotipodder/co2-emission-by-vehicles?select=Data+Description.csv). 
 
 ## Lesson Plan:
 ### 1.	Introduction about Linear regression. 
