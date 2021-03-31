@@ -10,16 +10,101 @@ Installation Python and Pycharm
 Installation Guide : Install [python 3.75](https://www.python.org/downloads/release/python-375/) and [Pycharm community (free) version for practical concepts](https://www.jetbrains.com/pycharm/download/). 
 
 ### 3.	Python basic course.  Cheat sheets with syntax and examples will be provided.
-* Variables
-* Comments
-* Receiving Input
-* Strings   
-* Arithmetic Operations
-* If Statements     
-* Comparison operators    
-* While loops
-* For loops     
-* Lists
-* Tuples     
-* Dictionaries    
+
+#### Variables
+- - - -
+
+We use variables to temporarily store data in the computer’s memory
+
+  &emsp; &emsp; price = 10
+<br>  &emsp; &emsp; rating = 4.9
+<br>  &emsp; &emsp; course_name = ´Python for Begginers´
+<br>  &emsp; &emsp; is_published = True
+
+In the example above, <br>
+
+<space>      &emsp; &emsp; <strong>price</strong> is an integer, a whole number without a decimal point;
+<br>  &emsp; &emsp; <strong>rating</strong> is a float, a number with a decimal point;
+<br>  &emsp; &emsp; <strong>course_name</strong> is a string, a sequence of characters;
+<br>  &emsp; &emsp; <strong>is_published</strong> is a boolean. Boolean values can be True or False.
+
+#### Comments
+- - - -
+
+We use comments to add notes to our code. Good comments explain the how’s and why’s, not what the code does. That should be reflected in the code itself. Use comments to add reminders to yourself or other developers, or also to explain your assumptions and the reasons you have written code in a certain way.<br>
+<br>  &emsp; &emsp; \# This is a comment and it won’t get executed.
+<br>  &emsp; &emsp; \# Our comments can be multiple lines.
+
+#### Receiving Input
+- - - -
+
+We can receive input from the user by calling the <strong>input()</strong> function.<br>
+<br>  &emsp; &emsp; birth_year = int(input(‘Birth year: ‘))
+
+The <strong>input()</strong> function always returns data as a string. So, we’re converting the result into an integer by calling the built-in <strong>int()</strong> function.
+
+
+#### Strings   
+- - - -
+
+We can define strings using single (‘ ’) or double (“ ”) quotes.
+
+To define a multi-lined string, we surround our string with triple quotes (“ “ “).
+
+We can get individual characters in a string using square brackets [ ]. <br> 
+
+ &emsp; &emsp; course  = ‘Python for Begginers’
+<br>  &emsp; &emsp; course [0]     \# returns the first character
+<br>  &emsp; &emsp; course [1]     \# returns the second character
+<br>  &emsp; &emsp; course [-1]    \# returns the first character from the end
+<br>  &emsp; &emsp; course [-2]    \# returns the second character from the end
+
+
+We can slice a string using a similar notation:
+
+ &emsp; &emsp; course [1:5]
+
+The above expression returns all the characters starting from the index position of 1 to 5 (but excluding 5).<br>
+The result will be <strong>ytho</strong>
+
+If we leave out the start index, 0 will assumed
+If we leave out the end index, the length of the string will be assumed.
+
+We can use formatted strings to dynamically insert values into our strings:
+
+ &emsp; &emsp; name = ‘Mosh’
+<br> &emsp; &emsp; message = f’Hi, my name is {name } ’
+
+<br> &emsp; &emsp; message.upper() &emsp; &emsp; &emsp; &emsp; &emsp; \# to convert to uppercase
+<br> &emsp; &emsp; message.lower() &emsp; &emsp; &emsp; &emsp; &emsp; \# to convert to lowercase
+<br> &emsp; &emsp; message.title()     &emsp; &emsp;&emsp; &emsp; &emsp; \# to capitalise the first letter of every word
+<br> &emsp; &emsp; message.find(‘p’)   &emsp; &emsp; &emsp; &emsp; &emsp; \# return the index of the first occurrence of p (or -1 not found)
+<br> &emsp; &emsp; message.replace(‘p’, ‘q’) &emsp; &emsp; \# replaces all the p's for q's
+
+To check if a string contains a character or a sequence of characters, we use the <strong> in </strong> operator<br>
+<br>  &emsp; &emsp; contains = ‘Python’ in course
+
+#### Arithmetic Operations
+- - - -
+
+#### If Statements     
+- - - -
+
+#### Comparison operators    
+- - - -
+
+#### While loops
+- - - -
+
+#### For loops     
+- - - -
+
+#### Lists
+- - - -
+
+#### Tuples     
+- - - -
+
+#### Dictionaries    
+- - - -
  
