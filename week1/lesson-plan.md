@@ -220,15 +220,15 @@ customer =  {
 
 We can use strings or numbers to define keys and they should be unique. We can use any type for the values.
 
-customer [“name”]                &emsp; &emsp;         \# returns “John Smith” 
-customer [“type”]                &emsp; &emsp;         \# returns an error
-customer.get(“type”, “silver”)   &emsp; &emsp;         \# returns “silver” 
-customer [“name”]  = “new name”
+customer [“name”]                &emsp; &emsp;         \# returns “John Smith” <br>
+customer [“type”]                &emsp; &emsp;         \# returns an error <br>
+customer.get(“type”, “silver”)   &emsp; &emsp;         \# returns “silver” <br>
+customer [“name”]  = “new name” <br>
 
 
 #### Functions    
 - - - -
-- 
+
 We use functions to break up our code into small chunks. These chunks are easier to read, understand and maintain. If there are bugs, it’s easier to find them in a small chunk than on an entire program. We can also re-use these chunks of code.
 
 ```
