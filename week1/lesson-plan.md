@@ -5,6 +5,8 @@ Installation Python and Pycharm
 
 ## Lesson Plan:
 ### 1.	Introduction to Machine learning + application
+ [slides](https://github.com/HackYourFuture-CPH/Machine_Learning/blob/main/week1/Python-ML-Week1-Slides.pdf)
+ 
 ### 2.	Python installation + Pycharm
 
 Installation Guide : Install [python 3.75](https://www.python.org/downloads/release/python-375/) and [Pycharm community (free) version for practical concepts](https://www.jetbrains.com/pycharm/download/). 
