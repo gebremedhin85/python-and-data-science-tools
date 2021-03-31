@@ -87,8 +87,40 @@ To check if a string contains a character or a sequence of characters, we use th
 #### Arithmetic Operations
 - - - -
 
+| Operator | Name               | Example  |  Result |
+| ----     | ------------------ | ---------| -------- |
+| +	| Addition |	x + y |  |
+| -	| Subtraction	| x - y |  |
+| *	| Multiplication	| x * y | |
+| /	| Division	| x / y | returns a float |
+| //	| Floor division	| x // y | returns an int |
+| %	| Modulo 	| x % y  | returns the remainder of a division|
+| %	| Exponentiation | x ** y = x to the power of y <br> or <br> pow(x,y) (pow(base, exponent)) |
+
+
+Augmented assignment operator:
+
+x = x + 10<br>
+x += 10
+
+Operator precedence
+1. Parenthesis
+2. Exponentiation
+3. Multiplication/Division
+4. Addition/Subtraction
+
+
 #### If Statements     
 - - - -
+
+```if is_hot: 
+  print(“hot day”)
+elseif is_cold
+  print(“cold day”)
+else: 
+  print(“beautiful day”)
+  ```
+
 
 #### Comparison operators    
 - - - -
