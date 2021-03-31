@@ -194,6 +194,55 @@ for i in range(1, 5):
 #### Tuples     
 - - - -
 
+They are like read-only lists. We use them to store a list of items. But once we define a tuple, we cannot add or remove items or change the existing items.
+
+coordinates = (1,2,3)
+
+We can unpack a list or a tuple into separate variables:
+
+x, y, z = coordinates
+
+
+
+
 #### Dictionaries    
 - - - -
  
+We use dictionaries to store key/value pairs
+
+```
+customer =  { 
+   “name”: “John Smith”,
+   “age”: 30,
+   "is_verified”: True
+} 
+```
+
+We can use strings or numbers to define keys and they should be unique. We can use any type for the values.
+
+customer [“name”]                &emsp; &emsp;         \# returns “John Smith” 
+customer [“type”]                &emsp; &emsp;         \# returns an error
+customer.get(“type”, “silver”)   &emsp; &emsp;         \# returns “silver” 
+customer [“name”]  = “new name”
+
+
+#### Functions    
+- - - -
+- 
+We use functions to break up our code into small chunks. These chunks are easier to read, understand and maintain. If there are bugs, it’s easier to find them in a small chunk than on an entire program. We can also re-use these chunks of code.
+
+```
+def great_user(name):
+	print(f”Hi {name} ”)
+
+great_user(“John”)
+```
+
+<strong>Parameters</strong> are placeholders for the data we can pass to functions. <strong>Arguments</strong> are the actual values we pass.
+
+We have two types of arguments:
+
+* Positional arguments: their position/order matters;
+* Keywords arguments: position doesn’t matter and we prefix them with the parameter name.
+
+
