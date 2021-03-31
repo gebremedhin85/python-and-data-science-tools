@@ -16,10 +16,12 @@ Installation Guide : Install [python 3.75](https://www.python.org/downloads/rele
 
 We use variables to temporarily store data in the computer’s memory
 
-  &emsp; &emsp; price = 10
-<br>  &emsp; &emsp; rating = 4.9
-<br>  &emsp; &emsp; course_name = ´Python for Begginers´
-<br>  &emsp; &emsp; is_published = True
+```
+price = 10
+rating = 4.9
+course_name = ´Python for Begginers´
+is_published = True
+```
 
 In the example above, <br>
 
@@ -39,7 +41,10 @@ We use comments to add notes to our code. Good comments explain the how’s and 
 - - - -
 
 We can receive input from the user by calling the <strong>input()</strong> function.<br>
-<br>  &emsp; &emsp; birth_year = int(input(‘Birth year: ‘))
+
+```
+birth_year = int(input(‘Birth year: ‘))
+```
 
 The <strong>input()</strong> function always returns data as a string. So, we’re converting the result into an integer by calling the built-in <strong>int()</strong> function.
 
@@ -53,16 +58,19 @@ To define a multi-lined string, we surround our string with triple quotes (“ �
 
 We can get individual characters in a string using square brackets [ ]. <br> 
 
- &emsp; &emsp; course  = ‘Python for Begginers’
-<br>  &emsp; &emsp; course [0]     \# returns the first character
-<br>  &emsp; &emsp; course [1]     \# returns the second character
-<br>  &emsp; &emsp; course [-1]    \# returns the first character from the end
-<br>  &emsp; &emsp; course [-2]    \# returns the second character from the end
-
+``` 
+course  = ‘Python for Begginers’
+course [0]                         \# returns the first character
+course [1]                         \# returns the second character
+course [-1]                        \# returns the first character from the end
+course [-2]                        \# returns the second character from the end
+```
 
 We can slice a string using a similar notation:
 
- &emsp; &emsp; course [1:5]
+``` 
+course [1:5]
+```
 
 The above expression returns all the characters starting from the index position of 1 to 5 (but excluding 5).<br>
 The result will be <strong>ytho</strong>
@@ -72,17 +80,22 @@ If we leave out the end index, the length of the string will be assumed.
 
 We can use formatted strings to dynamically insert values into our strings:
 
- &emsp; &emsp; name = ‘Mosh’
-<br> &emsp; &emsp; message = f’Hi, my name is {name } ’
+```
+name = ‘Mosh’
+message = f’Hi, my name is {name } ’
 
-<br> &emsp; &emsp; message.upper() &emsp; &emsp; &emsp; &emsp; &emsp; \# to convert to uppercase
-<br> &emsp; &emsp; message.lower() &emsp; &emsp; &emsp; &emsp; &emsp; \# to convert to lowercase
-<br> &emsp; &emsp; message.title()     &emsp; &emsp;&emsp; &emsp; &emsp; \# to capitalise the first letter of every word
-<br> &emsp; &emsp; message.find(‘p’)   &emsp; &emsp; &emsp; &emsp; &emsp; \# return the index of the first occurrence of p (or -1 not found)
-<br> &emsp; &emsp; message.replace(‘p’, ‘q’) &emsp; &emsp; \# replaces all the p's for q's
+message.upper()                 \# to convert to uppercase
+message.lower()                 \# to convert to lowercase
+message.title()                 \# to capitalise the first letter of every word
+message.find(‘p’)               \# return the index of the first occurrence of p (or -1 not found)
+message.replace(‘p’, ‘q’)       \# replaces all the p's for q's
+```
 
 To check if a string contains a character or a sequence of characters, we use the <strong> in </strong> operator<br>
-<br>  &emsp; &emsp; contains = ‘Python’ in course
+
+```
+contains = ‘Python’ in course
+```
 
 #### Arithmetic Operations
 - - - -
@@ -100,8 +113,10 @@ To check if a string contains a character or a sequence of characters, we use th
 
 Augmented assignment operator:
 
-&emsp; &emsp;  x = x + 10<br>
-&emsp; &emsp;  x += 10
+```
+  x = x + 10<br>
+  x += 10
+```
 
 Operator precedence
 1. Parenthesis
@@ -173,34 +188,38 @@ for i in range(1, 5):
 
 #### Lists
 - - - -
+```
+numbers = [1, 2, 3, 4, 5]
+numbers = [0]                     \#  returns the first item of the list
+numbers = [1]                     \#  returns the second item of the list
+numbers = [-1]                    \#  returns the first item from the of the list
+numbers = [-2]                    \#  returns the second item from the of the list
 
-* numbers = [1, 2, 3, 4, 5]
-* numbers = [0]  &emsp; &emsp;    \#  returns the first item of the list
-* numbers = [1]   &emsp; &emsp;    \#  returns the second item of the list
-* numbers = [-1]   &emsp; &emsp;    \#  returns the first item from the of the list
-* numbers = [-2]   &emsp; &emsp;    \#  returns the second item from the of the list
-<br>
 
-* numbers.append(6)    &emsp; &emsp;    \#  adds a single element with the value 6 to the end
-* numbers.insert(0,6)  &emsp; &emsp;    \#  adds a single element with the value 6 to the index position 0
-* numbers.remove(6)    &emsp; &emsp;    \#  removes a single and the first element that has the value 6 
-* numbers.pop()        &emsp; &emsp;    \#  removes the last item
-* numbers.clear()      &emsp; &emsp;    \#  removes all the items
-* numbers.index(8)     &emsp; &emsp;    \#  returns the index of the first item with the value 8
-* numbers.sort()       &emsp; &emsp;    \#  returns the list sorted alphabetically 
-* numbers.reverse()    &emsp; &emsp;    \#  returns the list reversed without taking into account the content
-* numbers.copy()       &emsp; &emsp;    \#  returns a copy of the list  
+
+numbers.append(6)                 \#  adds a single element with the value 6 to the end
+numbers.insert(0,6)               \#  adds a single element with the value 6 to the index position 0
+numbers.remove(6)                 \#  removes a single and the first element that has the value 6 
+numbers.pop()                     \#  removes the last item
+numbers.clear()                   \#  removes all the items
+numbers.index(8)                  \#  returns the index of the first item with the value 8
+numbers.sort()                    \#  returns the list sorted alphabetically 
+numbers.reverse()                 \#  returns the list reversed without taking into account the content
+numbers.copy()                    \#  returns a copy of the list  
+```
+
+
 
 #### Tuples     
 - - - -
 
 They are like read-only lists. We use them to store a list of items. But once we define a tuple, we cannot add or remove items or change the existing items.
 
-coordinates = (1,2,3)
+ &emsp; &emsp;  coordinates = (1,2,3)
 
 We can unpack a list or a tuple into separate variables:
 
-x, y, z = coordinates
+ &emsp; &emsp;  x, y, z = coordinates
 
 
 
@@ -220,10 +239,12 @@ customer =  {
 
 We can use strings or numbers to define keys and they should be unique. We can use any type for the values.
 
-customer [“name”]                &emsp; &emsp;         \# returns “John Smith” <br>
-customer [“type”]                &emsp; &emsp;         \# returns an error <br>
-customer.get(“type”, “silver”)   &emsp; &emsp;         \# returns “silver” <br>
-customer [“name”]  = “new name” <br>
+```
+customer [“name”]                      \# returns “John Smith” 
+customer [“type”]                      \# returns an error 
+customer.get(“type”, “silver”)         \# returns “silver” 
+customer [“name”]  = “new name” 
+```
 
 
 #### Functions    
