@@ -122,6 +122,16 @@ else:
   print(“beautiful day”)
   ```
 
+Logic operators
+
+```
+if has_high_income and has_good_credit:
+	…
+if has_high_income or has_good_credit:
+	…
+is_day = True
+is_night = not is_day
+```
 
 #### Comparison operators    
 - - - -
