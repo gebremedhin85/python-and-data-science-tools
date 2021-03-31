@@ -100,8 +100,8 @@ To check if a string contains a character or a sequence of characters, we use th
 
 Augmented assignment operator:
 
-x = x + 10<br>
-x += 10
+&emsp; &emsp;  x = x + 10<br>
+&emsp; &emsp;  x += 10
 
 Operator precedence
 1. Parenthesis
@@ -113,7 +113,8 @@ Operator precedence
 #### If Statements     
 - - - -
 
-```if is_hot: 
+```
+if is_hot: 
   print(“hot day”)
 elseif is_cold
   print(“cold day”)
