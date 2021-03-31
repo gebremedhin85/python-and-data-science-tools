@@ -9,7 +9,7 @@ Installation Python and Pycharm
 
 Installation Guide : Install [python 3.75](https://www.python.org/downloads/release/python-375/) and [Pycharm community (free) version for practical concepts](https://www.jetbrains.com/pycharm/download/). 
 
-### 3.	Python basic course.  Cheat sheets with syntax and examples will be provided.
+### 3.	Python basic course.  
 
 #### Variables
 - - - -
