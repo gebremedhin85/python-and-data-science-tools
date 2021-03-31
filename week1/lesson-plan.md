@@ -151,11 +151,45 @@ is_night = not is_day
 #### While loops
 - - - -
 
+```
+i = 1
+while i < 5; 
+   print(i)
+   i += 1
+```
+
 #### For loops     
 - - - -
 
+```
+for i in range(1, 5):
+	print(i)
+```
+* range(5):     &emsp; &emsp;   \# generates 0,1,2,3,4
+* range(1,5):     &emsp; &emsp; \# generates 1,2,3,4
+* range(1,5,2):   &emsp; &emsp; \# generates 1,3
+
+
+
 #### Lists
 - - - -
+
+* numbers = [1, 2, 3, 4, 5]
+* numbers = [0]  &emsp; &emsp;    \#  returns the first item of the list
+* numbers = [1]   &emsp; &emsp;    \#  returns the second item of the list
+* numbers = [-1]   &emsp; &emsp;    \#  returns the first item from the of the list
+* numbers = [-2]   &emsp; &emsp;    \#  returns the second item from the of the list
+<br>
+
+* numbers.append(6)    &emsp; &emsp;    \#  adds a single element with the value 6 to the end
+* numbers.insert(0,6)  &emsp; &emsp;    \#  adds a single element with the value 6 to the index position 0
+* numbers.remove(6)    &emsp; &emsp;    \#  removes a single and the first element that has the value 6 
+* numbers.pop()        &emsp; &emsp;    \#  removes the last item
+* numbers.clear()      &emsp; &emsp;    \#  removes all the items
+* numbers.index(8)     &emsp; &emsp;    \#  returns the index of the first item with the value 8
+* numbers.sort()       &emsp; &emsp;    \#  returns the list sorted alphabetically 
+* numbers.reverse()    &emsp; &emsp;    \#  returns the list reversed without taking into account the content
+* numbers.copy()       &emsp; &emsp;    \#  returns a copy of the list  
 
 #### Tuples     
 - - - -
