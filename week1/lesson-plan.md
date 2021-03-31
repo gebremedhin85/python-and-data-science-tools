@@ -88,14 +88,14 @@ To check if a string contains a character or a sequence of characters, we use th
 - - - -
 
 | Operator | Name               | Example  |  Result |
-| ----     | ------------------ | ---------| -------- |
+| ----     | -------------- | -----------------------------------| -------- |
 | +	| Addition |	x + y |  |
 | -	| Subtraction	| x - y |  |
 | *	| Multiplication	| x * y | |
 | /	| Division	| x / y | returns a float |
 | //	| Floor division	| x // y | returns an int |
 | %	| Modulo 	| x % y  | returns the remainder of a division|
-| %	| Exponentiation | x ** y = x to the power of y <br> or <br> pow(x,y) (pow(base, exponent)) |
+| %	| Exponentiation | x ** y = x to the power of y <br> or <br> pow(x,y) (pow(base, exponent)) | returns the result of raising the first operand <br>to the power of the second operand.| 
 
 
 Augmented assignment operator:
@@ -135,6 +135,18 @@ is_night = not is_day
 
 #### Comparison operators    
 - - - -
+
+| Comparison | Description               | Example  |  Result |
+| ----     | ------------------ | ---------| -------- |
+| a > b	 |  If the value of a is less than the value of b, then condition becomes true. |	6 > 3 | true  |
+| a >= b |  If the value of a is greater than or equal to the value of b, then condition becomes true. |	6 >= 6 | true  |
+| a < b  |  If the value of a is less than the value of b, then condition becomes true. |  3 < 6  | true  |
+| a <= b |  If the value of a is less than or equal to the b, then condition becomes true. | 6 <= 6 | true  |
+| a == b |  If a and b are equal, then the condition becomes true. |6 == 6 | true  |
+| a != b |  If a and b are not equal, then condition becomes true. | 6 != 3 | true  |
+| a <> b |  If a and b are not equal, then condition becomes true. | 6 <> 3 | true (this operator is deprecated so use != instead) |
+
+
 
 #### While loops
 - - - -
