@@ -40,5 +40,5 @@ For more information, please check this link :https://www.guru99.com/how-to-inst
 
 # External Documentation 
 
-External Documentation Python and Applied Machine Learning course
+External Documentation Introduction to Python and data science tools
  Content
