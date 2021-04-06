@@ -2,26 +2,26 @@
 > Please help us improve and share your feedback! If you find better tutorials
 or links, please share them by [opening a pull request](https://github.com/HackYourFuture-CPH/Machine_Learning/pulls).
 
-# HackYourFuture - Introduction to Python and data science tools
+# HackYourFuture - Introduction to Python and Data Science tools
 
 In this 5 week module we will introduce students to Python as well as the basic concepts and techniques of Machine Learning. To develop skills of using recent machine learning software for solving practical problems. To gain experience of doing independent study and research.
 
 
 ## Prerequisites
 
-Prerequisites Introduction to Python and data science tools
+Prerequisites Introduction to Python and Data Science tools
 
 This course is directed to HackYourFuture Alumni and everyone is expected to have the basic notions of programming.
 
 ## Preparation
 
-Preparation Introduction to Python and data science tools
+Preparation Introduction to Python and Data Science tools
 
 Please check the Installation guide below. 
 
 ## Environment setup
 
-Environment setup Introduction to Python and data science tools
+Environment setup Introduction to Python and Data Science tools
 
 Installation Guide : Install [python 3.75](https://www.python.org/downloads/release/python-375/) and [Pycharm community (free) version for practical concepts](https://www.jetbrains.com/pycharm/download/). 
 
@@ -40,5 +40,5 @@ For more information, please check this link :https://www.guru99.com/how-to-inst
 
 # External Documentation 
 
-External Documentation Introduction to Python and data science tools
+External Documentation Introduction to Python and Data Science tools
  Content
