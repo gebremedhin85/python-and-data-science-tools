@@ -1,6 +1,6 @@
 # Week-2 homework
 # 1. Write fizz_buzz function
-from pywin.mfc.object import Object
+# from pywin.mfc.object import Object
 
 
 def fizz_buzz(number):
@@ -35,11 +35,15 @@ class Jet:
     def __init__(self, name, country):
         self.name = name
         self.country = country
-        print(f'{name} {country}')
+
+    def print_name_country(self):
+        print(f'{self.name} {self.country}')
 
 
 jet1 = Jet('helicopter', 'Denmark')
+jet1.print_name_country()
 jet2 = Jet('Boing', 'USA')
+jet2.print_name_country()
 
 # 5. Write a Python script to check whether a given key already exists in a dictionary.
 customers = {'name': 'Jonis', 'phone': '123-345-8',
@@ -59,12 +63,13 @@ print(check_key('phone'))
 def show_numbers(limit):
     for num in range(0, limit + 1):
         if num % 2 == 0:
-            print(f'{num}  EVEN')
+            even_or_odd = 'EVEN'
         else:
-            print(f'{num}  ODD')
+            even_or_odd = 'ODD'
+        print(f' {num} {even_or_odd}')
 
 
-show_numbers(4)
+show_numbers(6)
 
 
 # 8. Class
