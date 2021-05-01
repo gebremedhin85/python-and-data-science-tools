@@ -103,7 +103,7 @@ df.loc[df['cor'] != 'No']
 df.loc[df['cor'].isin(['Yes','No'])]
 df.loc[~df['cor'].isin(['Yes','No'])]
 
-df['cor'].loc[~df['cor'].isin(['Yes','No'])] = np.nan
+df['cor'].loc[~df['cor'].isin(['Yes','No'])] = np.nan  # if value is not Yes or No change it to NaN value
 df
 
 
@@ -111,7 +111,7 @@ df
 
 
 df.loc[df['sec'] > 60]
-df.loc[df['sec'] > 60,'sec'] = np.nan
+df.loc[df['sec'] > 60,'sec'] = np.nan  # criterias: seconds should be in [0,60] else change value to NaN
 df
 
 
@@ -119,7 +119,7 @@ df
 
 
 # -there should be no missing values,
-df = df.dropna()
+df = df.dropna()  # value with NaN should be removed
 df
 
 
@@ -155,16 +155,16 @@ df.hist(column = 'time', bins = 4, by = 'type') # split by Sudoku type
 # Investigate if the participants in the sudoku experiment were faster doing the Latin letter or 
 # the Greek letter sudoku by taking the mean time for each type of sudoku 
 df_mean = df.drop(columns=['exp','Unnamed: 0','cor','diff','hour','sec','min'])
-df_mean  # we need only type and time column
+df_mean  # we need only type and time column to calculate mean for time 
 
 
 # In[43]:
 
 
 # then calculate mean time for each Greek and Latin  sudoku
-df_mean_greek = df_mean[df_mean['type'] == 'Greek'].mean()
+df_mean_greek = df_mean[df_mean['type'] == 'Greek'].mean()  # calculate mean time for Greek sudoku 
 print(df_mean_greek)  # time    368.0
-df_mean_latin = df_mean[df_mean['type'] == 'Latin'].mean()
+df_mean_latin = df_mean[df_mean['type'] == 'Latin'].mean()   # calculate mean time for Latin sudoku 
 print(df_mean_latin)  # time    539.5, latine takes loger time!!
 
 
